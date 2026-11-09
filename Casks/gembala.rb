@@ -1,6 +1,6 @@
 cask "gembala" do
-  version "0.1.0"
-  sha256 "ac387c1fce1fbc395fde8fd02e6d848c2e637f40e432af49fb0651dc68c90db8"
+  version "0.1.1"
+  sha256 "e615a9ad2b3a6e2060a4aab2d502a1ed175aa0fb07c0d9a92baf4153617bfd2c"
 
   url "https://github.com/AHanif52/gembala/releases/download/v#{version}/Gembala-#{version}-arm64.zip"
   name "Gembala"
@@ -19,7 +19,7 @@ cask "gembala" do
   end
 
   caveats <<~EOS
-    Close Gembala with "Quit and Stop All Agents…" before `brew upgrade --cask gembala`:
+    Close Gembala with "Quit and Stop All Agents…" before `brew upgrade gembala`:
     the running daemon lives inside the app bundle.
   EOS
 
