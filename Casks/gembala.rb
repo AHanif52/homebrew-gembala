@@ -1,6 +1,6 @@
 cask "gembala" do
-  version "0.1.6"
-  sha256 "55d820d652af1eddbb7638fe9d97d0dad040f8d23ab57a30e42f34f9bf6397ad"
+  version "0.1.7"
+  sha256 "3e2bce77e2b680068422307d2b081d57c4ed9297071db360ad0d57c1d6c9584c"
 
   url "https://github.com/AHanif52/gembala/releases/download/v#{version}/Gembala-#{version}-arm64.zip"
   name "Gembala"
